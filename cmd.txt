@@ -1,0 +1,33 @@
+mkdir -p dashboard/__pycache__
+mkdir -p dashboard/assets
+mkdir -p dashboard/dashboard/__pycache__
+mkdir -p dashboard/dashboard/api
+mkdir -p dashboard/dashboard/components/__pycache__
+mkdir -p dashboard/dashboard/pages/__pycache__
+mkdir -p dashboard/dashboard/state
+mkdir -p dashboard/dashboard/styles
+
+# Files
+touch dashboard/requirements.txt
+touch dashboard/rxconfig.py
+touch dashboard/assets/favicon.ico
+touch dashboard/assets/logo.jpg
+touch dashboard/assets/star-medal.png
+
+touch dashboard/dashboard/__init__.py
+touch dashboard/dashboard/dashboard.py
+
+touch dashboard/dashboard/api/__init__.py
+
+touch dashboard/dashboard/components/__init__.py
+touch dashboard/dashboard/components/navbar.py
+
+touch dashboard/dashboard/pages/__init__.py
+touch dashboard/dashboard/pages/diff.py
+touch dashboard/dashboard/pages/home.py
+touch dashboard/dashboard/pages/live.py
+touch dashboard/dashboard/pages/status.py
+touch dashboard/dashboard/pages/versioncmp.py
+
+touch dashboard/dashboard/state/__init__.py
+touch dashboard/dashboard/styles/__init__.py
