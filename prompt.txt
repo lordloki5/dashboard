@@ -1,0 +1,20 @@
+it is a working coding implementing almost all the functionalities , look for features which are not implemented and implement them, and thing which I could find was , it wasnt displaying name of engines in front each cfsh_instance 
+original requirements are:
+you have to make a one file python reflex , 
+(1)the top row displays two components cstn_name and a select dropdown to show other options of cstn_name which hill set cstn_name
+(2) the row below that displays all the cfsh_names corresponding to the cstn_name above. And infront of each cfsh_name, there will be a heart icon representing an engine deployed on that cfsh_name.  A cfsh_name has multiple  engines deployed on it , so it will have one heart corresponding to each engine. And when we hover our cursor over the heart , then we will se the name of the engine. Each engine and cfsh_name has a checkbox also
+(3) The space below the two rows, is divided in three columns.
+The first column ,has a search field on the top and  displays all the group_name .Each group has a dropbox
+Each group has multiple stacks , second column is a dropdown which shows all the stacks of the selected groups.Here  user will select a stack.
+Third column has a toggle switch at top , so. this column basically has two tabs , each tab display some info. Only one table is switched at a time
+(4) there is a side bar also , once a engine's checkbox is selected  or a stack is selected, this sidebar canoe used. it has three dropdown, on top of dropdown , cstn_name , cfsh_name and engine name is written and each drop down opens to show some information regarding the component.
+
+Now all the required data is available in form of dictionary:
+(a)There is one dictionary which has mappings cstn_name to cfsh_names
+(b)There is one dictionary which has mappings cfsh_name to engines
+(c)There is one dictionary which has mappings  engine to group_names
+(d)There is one dictionary which has mappings group_name to stack_names
+
+Rest information you can hardcode, I will change it according to myself. Take your time and implement everything as described
+
+The given code is running , so make minimal changes
